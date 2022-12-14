@@ -1,0 +1,65 @@
+.wishlistitem-container{
+    margin: 40px;
+    width: 210px;
+    height: 350px;
+    padding-bottom: 7px;
+    cursor: pointer;
+    background-color: white;
+    position: relative;
+}
+
+.wishlistitem-remove-btn{
+    position: absolute;
+    top: 10px;
+    left: 184px;
+    border-radius: 50px;
+    height: 17px;
+    width: 14px;
+    line-height: 14px;
+    background: #ffffff;
+    color: rgb(141, 140, 140);
+    border: none;
+    font-weight: 600;
+    /* padding: 1px; */
+    padding-left: 3px;
+}
+
+
+.wishlistitem-remove-btn:hover{
+    background-color: #f0f0f0;
+    color: rgb(134, 134, 134);
+}
+
+.wishlistitem-img{
+    height: 80%;
+}
+
+.wishlistitem-info{
+    margin-top: -7px;
+    padding: 6px;
+}
+
+.wishlistitem-desc{
+    color: #535766;
+    font-size: 13px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.wishlistitem-price{
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 2px;
+    color: #2e2f35;
+}
+
+.wishlistitem-btn{
+    height: 35px;
+    width: 211px;
+    border: 1px solid #ff3e6c;
+    background: white;
+    color: #ff3e6c;
+    cursor: pointer;
+}

@@ -1,0 +1,123 @@
+.filter-content{
+    display: flex;
+}
+
+.filter-filter{
+    width: 239px;
+    position: relative;
+}
+
+.filter-heading-div{
+    padding: 15px;
+    padding-left: 30px;
+    border-right: 1px solid rgb(179, 179, 179);
+}
+
+.filter-heading{
+    font-size: 17px;
+    font-weight: 600;
+    width: fit-content;
+    transform: translate(60px);
+    transition: transform 1.3s;
+}
+
+/* .filter-heading-transition{
+    transform: translate(0px);
+} */
+
+.filter-clearall{
+    position: absolute;
+    top: 18px;
+    left: 164px;
+    font-size: 13px;
+    font-weight: 500;
+    display: none;
+    transition: display 0.5s;
+    color: #ff3e6c;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* .filter-transition{
+    display: block;
+    animation: popup 0.5s linear forwards
+}
+
+@keyframes popup{
+    100%{
+        opacity: 1;
+    }
+    50%{
+        opacity:0.5
+    }
+    0%{
+        opacity: 0;
+    }
+} */
+
+#filter-container-gender{
+    text-align: left;
+    padding: 15px 20px;
+ 
+}
+
+#filter-container-gender label{
+    cursor: pointer;
+    font-weight: 500;
+    color: rgb(48, 48, 48);
+    font-size: 13px;
+}
+
+.filter-gender{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgb(179, 179, 179);
+    border-bottom: 1px solid rgb(179, 179, 179);
+    border-top: 1px solid rgb(179, 179, 179);
+    
+}
+
+.filter-radiobtn{
+    margin:7px 8px;
+}
+
+#filter-container-brand{
+    text-align: left;
+    padding: 15px 20px;
+ 
+}
+
+#filter-container-brand label{
+    cursor: pointer;
+    font-weight: 400;
+    color: rgb(118, 117, 117);
+    font-size: 13px;
+}
+
+.filter-brand{
+    border-right: 1px solid rgb(179, 179, 179);
+    border-bottom: 1px solid rgb(179, 179, 179);
+}
+
+.filter-brand-heading{
+    padding: 10px 10px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.filter-checkbox{
+    margin-right: 10px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    accent-color: #ff3e6c;
+  }
+
+input[type='radio'] {
+    accent-color: #ff3e6c;
+}

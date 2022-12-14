@@ -1,0 +1,112 @@
+.product_desc-homepage{
+    padding-top: 80px;
+    height: 100vh;
+}
+
+.product_desc-content{
+    height: 370px;
+    margin: 30px 170px;
+    display: flex;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 35px 10px;
+}
+
+.product_desc-img-wrapper{
+    padding: 1px 35px;
+    padding-right: 45px;
+    border-right: 1px solid lightgray;
+
+}
+
+.product_desc-img{
+    height: 100%;
+}
+
+.product_desc-desc-wrapper{
+    padding: 0px 45px;
+}
+
+.product_desc-brand{
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 13px;
+}
+
+.product_desc-title{
+    font-size: 28px;
+    font-weight: 100;
+    margin-bottom: 30px;
+    color: #858383;
+}
+
+.product_desc-price{
+    font-size: 26px;
+    font-weight: 500;
+    text-align: left;
+    color: #3c3c3c;
+}
+
+.product_desc-tax{
+    font-size: 14px;
+    text-align: left;
+    font-weight: 500;
+    margin-top: 7px;
+    color: #47b798;
+}
+
+.product_desc-btn-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 87px;
+}
+
+.product_desc-btn{
+    margin: 9px;
+    width: 250px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 600;
+    position: relative;
+}
+
+.product_desc-wishlist-icon{
+    position: absolute;
+    top: 9px;
+    left: 71px;
+    height: 19px;
+    width: 17px;
+    background: url(https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png);
+    background-size: 1401px 105px;
+    background-position: -315px -397px;
+}
+
+.product_desc-cart-icon{
+    position: absolute;
+    top: 8px;
+    left: 58px;
+    height: 19px;
+    width: 17px;
+    background: url(https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png);
+    background-size: 1401px 105px;
+    background-position: -168px -371px;
+}
+
+.product_desc-wishlist-btn{
+    background: white;
+    color: #3b3b3b;
+    border: 1px solid lightgray;
+}
+
+.product_desc-wishlist-btn:hover{
+    border: 1px solid rgb(160, 160, 160);
+}
+
+.product_desc-cart-btn{
+    background-color: #ff3e6c;
+    color: white;
+}
+

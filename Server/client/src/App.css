@@ -1,0 +1,12 @@
+/* overriding toastify position */
+.Toastify__toast-container--top-right{
+  top: 5rem !important;
+}
+.Toastify__progress-bar-theme--dark {
+  background: #ff3e6c !important;
+}
+
+:root{
+  --toastify-icon-color-error: #ff3e6c !important;
+  --toastify-icon-color-success: #ff3e6c !important;
+}

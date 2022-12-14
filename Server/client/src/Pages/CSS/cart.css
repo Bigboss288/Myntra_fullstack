@@ -1,0 +1,116 @@
+.cart-content-wrapper{
+    display: none;
+    min-height: 100vh;
+}
+
+.cart-product-list{
+    margin-top: 80px;
+    padding-top: 40px;
+}
+
+.cart-product-details{
+    position: fixed;
+    top: 80px;
+    left: 801px;
+    padding: 60px 42px;
+    padding-right: 107px;
+    width: 320px;
+    height: 80vh;
+    border-left: 1px solid rgb(230, 229, 229);
+}
+
+.cart-product-price-details{
+    text-align: left;
+    font-size: 15px;
+    font-family: revert;
+    font-weight: 600;
+    color: #4a4848;
+}
+
+.cart-product-totalprice{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.cart-product-deliveryfee{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #d1cfcf;
+}
+
+.cart-product-totalamount{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+    font-size: 15px;
+}
+
+.cart-product-proceedbtn{
+    margin-top: 40px;
+    width: 320px;
+    height: 35px;
+    background: #ff3e6c;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    border: none;
+    cursor: no-drop;
+}
+
+
+/*------------------------------ when cart is empty -------------------------------------------------*/
+
+.cart-content-empty{
+    /* display: none; */
+    height: 67vh;
+    padding-top: 200px;
+}
+
+.cart-empty-bag-imgwrap{
+    display: flex;
+    justify-content: center;
+}
+
+.cart-empty-bag-img{
+    height: 150px;
+}
+
+.cart-empty-title1{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding: 5px;
+    color: #343434;
+    display: flex;
+    justify-content: center;
+}
+
+.cart-empty-title2{
+    color: #b8b3b3;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.cart-empty-continue-btn{
+    margin-top: 35px;
+    margin-left: 550px;
+    height: 34px;
+    width: 175px;
+    outline: none;
+    border: 1.5px solid red;
+    border-radius: 5px;
+    background: white;
+    color: red;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
