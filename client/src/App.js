@@ -4,13 +4,14 @@ import {Route, Routes} from 'react-router-dom'
 import ProductDesc from './Pages/ProductDesc';
 import Cart from './Pages/Cart'
 import Wishlist from './Pages/Wishlist';
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 // import { products } from './Data';
 import { useDispatch } from 'react-redux';
 import { addFilterArray, addGenderArray, addproduct, clearFilterArray, fillAll } from './Redux/productRedux';
 import { publicRequest } from './requestMethods';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+const LazyHome = React.lazy(()=>import('./Pages/Home'))
 
 function App() {
 
@@ -40,7 +41,9 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route exact path='/' element={<Home/>}></Route>
+        <Route exact path='/' element={<React.Suspense fallback='loading'>
+          <LazyHome/>
+        </React.Suspense>}></Route>
         <Route path='/product/:id' element={<ProductDesc/>}></Route>
         <Route path='/cart' element={<Cart/>}></Route>
         <Route path='/wishlist' element={<Wishlist/>}></Route>

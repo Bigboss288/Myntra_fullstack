@@ -62,7 +62,10 @@ const Navbar = () => {
       productsArray.filter(item => {
         if(item.brand.toUpperCase().includes(val.toUpperCase()) || 
                       item.category.toUpperCase()===val.toUpperCase() ||
-                      item.title.toUpperCase().includes(val.toUpperCase())){
+                      (val.toUpperCase() !== 'MEN' && val.toUpperCase() !== 'WOMEN'
+                      && item.title.toUpperCase().includes(val.toUpperCase()))){
+
+                        console.log(val)
           dispatch(addFilterArray({...item}))
           dispatch(addGenderArray({...item})) 
         }
