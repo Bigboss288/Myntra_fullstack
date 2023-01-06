@@ -1,0 +1,72 @@
+.wishlist-content-wrapper{
+    padding-top: 80px;
+    display: none;
+}
+
+.wishlist-content-quantity{
+    text-align: left;
+    padding: 30px;
+    margin-left: 60px;
+}
+
+.wishlist-content-quantity-1{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(73, 73, 73);
+}
+
+.wishlist-content-quantity-2{
+    font-size: 18px;
+    color: rgb(162, 159, 159);
+}
+
+.wishlist-content-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 40px;
+}
+
+/*---------------------------- Wishlist empty ------------------------------------------------*/
+
+.wishlist-content-empty{
+    width: 350px;
+    margin: 0px 470px;
+    padding-top: 173px;
+    height: 72vh;
+}
+
+.wishlist-empty-title1{
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.wishlist-empty-title2{
+    margin: 10px 5px;
+    font-size: 16px;
+    font-family: system-ui;
+    color: #959292;
+}
+
+.wishlist-empty-img{
+    width: 85px;
+    height: 104px;
+    background: url(https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png);
+    background-size: 1404px 105px;
+    background-position: 229px 0px;
+    margin: 30px;
+    margin-left: 130px;
+}
+
+.wishlist-empty-btn{
+    height: 40px;
+    width: 300px;
+    outline: none;
+    border: 1.5px solid #3466e8;
+    color: #3466e8;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
